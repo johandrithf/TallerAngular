@@ -1,0 +1,11 @@
+<div id="mySidenav" class="sidenav">
+    <a class="closebtn" (click)="closeNav()">&times;</a>
+    <div class="navbar-header p-0">
+        <a class="navbar-brand" [routerLink]='["/"]' >Aplicación Web</a>
+        <a [routerLink]='["/"]' class="nav-link" (click)="closeNav()">
+            <span class="fas fa-home"></span>Home
+        </a>
+        <a [routerLink]='["/Add"]' class="nav-link" (click)="closeNav()">
+            <span class="fas fa-sort-amount-up"></span>Operaciones
+        </a>
+    </div>
